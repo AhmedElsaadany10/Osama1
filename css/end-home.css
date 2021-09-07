@@ -1,0 +1,81 @@
+.end-home{
+    padding:0 15% 5% 15%;
+}
+.end-title .span1{
+    left: 23%;
+}
+.end-title .span2{
+    left: 70%;
+}
+.about-us{
+    width: 50%;
+    float: left;
+}
+.about-us h4{
+    font-size: 40px;
+    font-family: 'oswald',sans-serif;
+    font-weight: 300;
+}
+.about-us p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.about-us h4,.about-us p{
+    margin-bottom: 20px;
+    letter-spacing: .7px;
+}
+.strong{
+    font-weight: 700;
+}
+.about-us ul li{
+    float: left;
+    margin-right: 25px;
+    margin-top: 24px;
+}
+.about-us ul li i{
+    color: black;
+}
+.end-home-content{
+    display: flex;
+}
+.contact-form{
+    flex: 1;
+    box-shadow: 1px 1px 15px #f1f1f0cf;
+    border-radius: 10px;
+    
+}
+
+.form-control{
+   outline: 0;
+   padding: 20px;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+.form-control {
+    margin: 20px;
+}
+#subject,
+#comments{
+    display: block;
+    width: 85%;
+}
+.btn-divo{
+    float: right;
+    padding: 50px;
+   
+    
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+.btn-divo button{
+    float: right;
+    margin-right: 120px;
+}
+iframe{
+    margin: 5% 15% 5% 15%;
+    width: 70%;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

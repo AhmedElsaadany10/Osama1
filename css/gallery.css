@@ -1,0 +1,62 @@
+.movie-gallery{
+    padding: 0px 15%;
+    background-color: white;
+}
+.port-content{
+    overflow: hidden;
+}
+.port-item img{
+    width: 100%;
+} 
+.port-item{
+    float: left;
+    width: 23%;
+    margin: 0 10px 10px 10px;
+    position: relative;
+}
+.big-photo{
+    width: 48%;
+}
+
+.port-item .port-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s;
+}
+
+.port-item:hover .port-layer{
+    opacity: 0.8;
+    visibility: visible;
+}
+.port-item:hover .port-layer .layer-h4{
+    opacity: 1;
+}
+.port-item .port-layer .layer-h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    opacity: 1;
+    color: white;
+    margin-top: 40%;
+    float:none;
+    transition: top .5s;
+    transition-delay: .3s;
+}
+#h4-excep{
+    margin-top: 20%;
+}
+.port-item{
+    overflow: hidden;
+}
+.port-item img{
+    transition: .5s;
+}
+.port-item:hover img{
+    transform: scale(1.3);
+}

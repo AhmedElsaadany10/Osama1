@@ -1,0 +1,343 @@
+.story{
+    background-color: #fff;
+    height: 90%;
+}
+
+.story-item{
+   
+    width: 50%;
+    float: left;
+}
+.story-item p,h2{
+    color: rgba(30, 30, 30); 
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.story-item .img{
+    padding:15px 0 15px 30px;
+}
+.story-item h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.story-item img{
+    
+    width: 100%;
+}
+
+.story-item h6{
+    color: rgb(255, 196, 0);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.story-item button,.btn-divo button,.home button{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 0px; 
+    border: none;
+    font-size: 16px;
+    cursor:pointer;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.header-section{
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+.header-section h1{
+    font-size: 3rem;
+}
+.header-section span{
+    position: absolute;
+    width: 70px;
+    height: 7px;
+    background-color: rgb(255, 196, 0);
+}
+.header-section .span1{
+    
+    left: 265px;
+    top: 40px;
+}
+.header-section .span2{
+    left: 735px;
+    top: 40px;
+}
+.cast-title .span1{
+    left: 350px;
+}
+.cast-title .span2{
+    left: 640px;
+}
+.mergn{
+    margin-top: 400px;
+    text-align: center;
+    position: relative;
+}
+.mergn h1{
+    font-size: 3rem;
+}
+.mergn span{
+    position: absolute;
+    width: 70px;
+    height: 7px;
+    background-color: rgb(255, 196, 0);
+}
+.mergn .span1{
+    
+    left: 265px;
+    top: 40px;
+}
+.mergn .span2{
+    left: 735px;
+    top: 40px;
+}
+.icons{
+    margin-bottom: 15px;
+}
+.num-content{
+    padding: 100px 0;
+    background-color: white;
+}
+.num-item{
+    margin-right: 21px;
+    float: left;
+    width: 23%;
+    text-align: center;
+}
+.num-content:last-child{
+    margin: 0;
+}
+
+.num-item p,
+.num-item h4{
+    color: black;
+    margin-bottom: 15px;
+}
+.num-item i:hover{
+    transition: transform .4s;
+    transform: translate(0px,-20px);
+}
+.num-item h4:hover{
+    color: rgb(255, 196, 0);
+}
+
+.video_part{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url(../images/img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 550px;
+}
+
+.circle{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    position:fixed;
+    top: 50%;
+    left: 57%;
+    
+    transform: translate(-50%,-50%);
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    
+    border-left: 30px solid rgb(255, 196, 0);
+  }
+  
+.arrow-in {
+    width: 0; 
+    height: 0; 
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    
+    transform: translate(-50%,-50%);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    border-left: 20px solid white;
+  }
+
+  .num{
+      background-color: white;
+  }
+  .our-cast-content1{
+    position: relative;
+    float: left;
+    width: 25%;
+  }
+  .cast-item{
+      width: 100%;
+      float: left;
+      
+  }
+  .cast-item i{
+    color: black;
+  }
+  .cast-img,
+  .cast-desc{
+      height: 250px;
+      overflow: hidden;
+  }
+  .cast-img img{
+    background-color: #f9f9f9;
+    width: 100%;
+    transition: .5s;
+    transform: scale(1.1);
+  }
+  .cast-img:hover img{
+      transform: scale(1.2);
+  }
+  .cast-item .cast-desc{
+      background-color: #f9f9f9;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+.bar-effect{
+    position:relative;
+}
+.bar-effect::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 196, 0);
+    z-index: 0;
+    height: 0;
+    width: 100%;
+    transition: height .6s;
+}
+.bar-effect:hover::after{
+    height: 100%;
+}
+  .cast-desc{
+      padding: 20px;
+  }
+  .cast-desc span{
+      position: relative;
+      color: rgb(255, 196, 0);
+      margin: 10px 0;
+  }
+  .cast-desc p{
+      position: relative;
+      margin: 10px 0;
+      font-weight: 400;
+  }
+  .cast-desc ul li{
+      position: relative;
+      display: inline-block;
+      margin-right: 10px;
+  }
+  .cast-desc h3{
+      position:relative  ;
+  }
+.cast-desc i{
+position: relative;
+}
+.our-cast{
+    margin-bottom: 50px;
+}
+.last-video{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+}
+.cast-desc:hover h3,
+.cast-desc:hover span,
+.cast-desc:hover p,
+.cast-desc:hover ul li i{
+    color: white;
+    z-index: 1;
+}
+.last-title .span1{
+    left: 300px;
+}
+.last-title .span2{
+    left: 700px;
+}
+.blog-item{
+    background-color: white;
+    height: 50%;
+}
+.last-item .cast-item{
+    margin-right: 24px;
+    width: 31%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cast-3{
+    margin-right: 0;
+    float: right;
+}
+.blog-item h3{
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 27px;
+}
+.blog-item h3:hover,
+.blog-item i:hover{
+    color: rgb(255, 196, 0);
+}
+.blog-item ul{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.blog-item ul  li{
+    display: inline-block;
+    margin: 25px 0;
+    background-color: white;
+    width: 25%;
+    height: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.blog-item p{
+    margin-bottom: 1rem;
+    margin-left: 25px;
+}
+.blog-item i{
+    color: gray;
+}
